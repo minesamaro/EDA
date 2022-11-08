@@ -37,6 +37,7 @@ int numDays(int month, int year)
         else
             numdays = 28;
         break;
+    default: numdays = 0;
     }
 
     return numdays;
